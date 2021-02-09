@@ -17,7 +17,9 @@
 
     <modules>
         <module>producer</module>
+        <module>subscriber</module>
     </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -30,6 +32,10 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
         </dependency>
 
         <dependency>
