@@ -1,8 +1,8 @@
-# spring-kafka-examples
-Basic Kafka functions examples using spring
-
+# kafka-examples
 
 ## Create topics in kafka
+
+If the `KAFKA_AUTO_CREATE_TOPICS_ENABLE` environment variable is not set to true, a new topic must be created manually.
 
 The following topics must be created manually as Kafka topics are not created automatically by default.
 
